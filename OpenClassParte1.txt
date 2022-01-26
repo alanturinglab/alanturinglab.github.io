@@ -77,6 +77,10 @@ colnames(datos3) <- c("Primer nombre", "Edad (años)")
 rownames(datos3) <- c("Primera persona", "Segunda persona", "Tercera persona", "Cuarta persona")
 datos3
 
+### Crear un archivo .csv
+
+write.csv(datos3, "archivo_datos.csv")
+
 ### Base de Ejemplo:
 ### https://alanturinglab.github.io/hoteles-moteles-trivago.csv
 
