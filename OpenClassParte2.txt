@@ -10,7 +10,7 @@
 #####################################################################
 
 
-### Instalando los paquetes
+### Instalando los paquetes (escribir estos comandos en la consola)
 
 ### Para ver el github de tidyverse:
 ### https://github.com/tidyverse/tidyverse
@@ -24,7 +24,7 @@ install.packages("esquisse")
 #####################################################################
 
 
-### Activando el paquete tidyverse
+### Activando ggplot2 builder (escribir este comando en la consola)
 
 library(tidyverse)
 
@@ -43,7 +43,7 @@ carros <- data.frame(mtcars)
 flores <- data.frame(iris)
 
 
-### Activando ggplot2 builder
+### Activando ggplot2 builder (escribir este comando en la consola)
 
 esquisse::esquisser()
 
@@ -61,6 +61,6 @@ esquisse::esquisser()
 base_hoteles <- read.csv("hoteles-moteles-trivago.csv")
 base_hoteles
 
-### Activando ggplot2 builder
+### Activando ggplot2 builder (escribir este comando en la consola)
 
 esquisse::esquisser()
