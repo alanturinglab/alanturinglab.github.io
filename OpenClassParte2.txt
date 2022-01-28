@@ -1,13 +1,13 @@
 ### Open Class, parte 2: introducción a RMarkdown con visual mode y gráficas con ggplot2 y esquisse
 
-#####################################################################
+##################################################################################################
 
 
 ### Liga de RStudio Cloud:
 ### https://rstudio.cloud
 
 
-#####################################################################
+##################################################################################################
 
 
 ### Instalando los paquetes (escribir estos comandos en la consola)
@@ -21,18 +21,18 @@ install.packages("tidyverse")
 install.packages("esquisse")
 
 
-#####################################################################
+##################################################################################################
 
 
-### Activando ggplot2 builder (escribir este comando en la consola)
+### Activando el paquete tidyverse
 
 library(tidyverse)
 
 
-#####################################################################
+##################################################################################################
 
 
-### Ejemplo 1: bases en R
+### Ejemplo de gráficas con esquisse 1: con bases de datos disponibles en R
 
 mtcars
 iris
@@ -48,10 +48,10 @@ flores <- data.frame(iris)
 esquisse::esquisser()
 
 
-#####################################################################
+##################################################################################################
 
 
-### Ejemplo 2: una base de datos de hoteles y precios de hospedaje
+### Ejemplo de gráficas con esquisse 2: con una base de datos de hoteles y precios de hospedaje
 
 ### Ingresar a la siguiente liga para descargar el archivo
 ### https://alanturinglab.github.io/hoteles-moteles-trivago.csv
