@@ -1,0 +1,66 @@
+### Open Class, parte 2: introducción a RMarkdown con visual mode y gráficas con ggplot2 y esquisse
+
+#####################################################################
+
+
+### Liga de RStudio Cloud:
+### https://rstudio.cloud
+
+
+#####################################################################
+
+
+### Instalando los paquetes
+
+### Para ver el github de tidyverse:
+### https://github.com/tidyverse/tidyverse
+install.packages("tidyverse")
+
+### Para ver el github de esquisse:
+### https://github.com/dreamRs/esquisse
+install.packages("esquisse")
+
+
+#####################################################################
+
+
+### Activando el paquete tidyverse
+
+library(tidyverse)
+
+
+#####################################################################
+
+
+### Ejemplo 1: bases en R
+
+mtcars
+iris
+
+### Convertimos las bases de R a data frames
+
+carros <- data.frame(mtcars)
+flores <- data.frame(iris)
+
+
+### Activando ggplot2 builder
+
+esquisse::esquisser()
+
+
+#####################################################################
+
+
+### Ejemplo 2: una base de datos de hoteles y precios de hospedaje
+
+### Ingresar a la siguiente liga para descargar el archivo
+### https://alanturinglab.github.io/hoteles-moteles-trivago.csv
+
+### Importar una base de datos:
+
+base_hoteles <- read.csv("hoteles-moteles-trivago.csv")
+base_hoteles
+
+### Activando ggplot2 builder
+
+esquisse::esquisser()
